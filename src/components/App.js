@@ -29,7 +29,7 @@ const App = () => {
 
     return(
         <>
-            Id number  <input type="number" onBlur={updateInput}/>
+            Id number  <input type="number" onChange={updateInput}/>
 
             {
                 (loader) && <Loader />

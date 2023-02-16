@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const PhotoFrame = (props) => {
-    console.log('url nd title - ', props.url, props.title)
+    // console.log('url nd title - ', props.url, props.title)
     return(
         <>
             <div className='photoframe'>
